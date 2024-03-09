@@ -12,7 +12,7 @@ var t1 = gsap.timeline();
 t1.from("#typingtext", {
   y: -300,
   opacity: 0,
-  duration: 1.2,
+  duration: 1,
   delay: 0.2,
 });
 t1.from("#darklight", {
@@ -45,7 +45,7 @@ t1.from("#circle", {
   opacity: 0,
   duration: 0.7,
 });
-t1.timeScale(0.8);
+t1.timeScale(1);
 
 // FETCHING DATA FROM API
 let inputdata = document.getElementById("inp1");
